@@ -5,3 +5,6 @@
 
 - name: Install Red Hat SSO Operator
   ansible.builtin.include_tasks: rhsso_operator.yml
+
+- name: Install OpenShift Gitops
+  ansible.builtin.include_tasks: openshift_gitops.yml
