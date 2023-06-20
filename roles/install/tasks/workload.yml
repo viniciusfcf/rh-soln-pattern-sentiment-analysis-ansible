@@ -2,3 +2,6 @@
 
 - name: Install AMQ Streams operator
   ansible.builtin.include_tasks: amq_streams_operator.yml
+
+- name: Install Red Hat SSO Operator
+  ansible.builtin.include_tasks: rhsso_operator.yml

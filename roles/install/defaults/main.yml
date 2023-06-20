@@ -17,3 +17,17 @@ amq_streams_operator_use_catalog_snapshot: false
 amq_streams_operator_catalogsource_name: ""
 amq_streams_operator_catalog_snapshot_image: ""
 amq_streams_operator_catalog_snapshot_image_tag: ""
+
+# ------------------------------------------------
+# Red Hat SSO Operator
+# ------------------------------------------------
+
+rhsso_operator_namespace: rhsso
+rhsso_operator_channel: ""
+rhsso_operator_automatic_install_plan_approval: true
+rhsso_operator_starting_csv: ""
+rhsso_operator_wait_for_deploy: true
+rhsso_operator_use_catalog_snapshot: false
+rhsso_operator_catalogsource_name: ""
+rhsso_operator_catalog_snapshot_image: ""
+rhsso_operator_catalog_snapshot_image_tag: ""
