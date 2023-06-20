@@ -8,3 +8,6 @@
 
 - name: Install OpenShift Gitops
   ansible.builtin.include_tasks: openshift_gitops.yml
+
+- name: Install SSO
+  ansible.builtin.include_tasks: rhsso.yml

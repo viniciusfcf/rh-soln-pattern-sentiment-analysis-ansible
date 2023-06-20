@@ -131,3 +131,19 @@ openshift_gitops_resource_customizations: |
       health_status.status = "Progressing"
       health_status.message = "An install plan for a subscription is pending installation"
       return health_status
+
+# ------------------------------------------------
+# Red Hat SSO
+# ------------------------------------------------
+
+rhsso_application_namespace: openshift-gitops
+rhsso_application_name: rhsso
+rhsso_namespace: "{{ rhsso_operator_namespace }}"
+rhsso_gitops_repo: https://github.com/btison/globex-sentiment-analysis-helm.git
+rhsso_gitops_repo_tag: main
+rhsso_gitops_repo_path: globex-sentiment-analysis/globex-rhsso
+
+rhsso_cr_name: rhsso
+rhsso_external_access: false
+rhsso_host: sso
+rhsso_max_time_to_wait: 600000
