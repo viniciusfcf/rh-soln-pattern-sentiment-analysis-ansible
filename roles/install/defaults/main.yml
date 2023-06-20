@@ -133,6 +133,30 @@ openshift_gitops_resource_customizations: |
       return health_status
 
 # ------------------------------------------------
+# Serverless Operator
+# ------------------------------------------------
+
+serverless_operator_channel: ""
+serverless_operator_automatic_install_plan_approval: true
+serverless_operator_starting_csv: ""
+serverless_operator_name: serverless-operator
+serverless_operator_namespace: openshift-serverless
+serverless_operator_catalog: redhat-operators
+serverless_operator_csv_prefix: serverless-operator
+serverless_operator_wait_for_deploy: true
+serverless_operator_use_catalog_snapshot: false
+serverless_operator_catalogsource_name: ""
+serverless_operator_catalog_snapshot_image: ""
+serverless_operator_catalog_snapshot_image_tag: ""
+
+serverless_serving_namespace: knative-serving
+serverless_eventing_namespace: knative-eventing
+serverless_serving_name: knative-serving
+serverless_eventing_name: knative-eventing
+serverless_serving_wait_for_deploy: true
+serverless_eventing_wait_for_deploy: true
+
+# ------------------------------------------------
 # Red Hat SSO
 # ------------------------------------------------
 
