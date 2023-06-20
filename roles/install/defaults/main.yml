@@ -147,3 +147,27 @@ rhsso_cr_name: rhsso
 rhsso_external_access: false
 rhsso_host: sso
 rhsso_max_time_to_wait: 600000
+rhsso_realm: globex
+rhsso_web_gateway_client: globex-web-gateway
+
+# ------------------------------------------------
+# Globex
+# ------------------------------------------------
+
+globex_namespace: globex
+globex_mw_namespace: globex-mw
+
+globex_application_name: globex
+globex_application_namespace: openshift-gitops
+
+globex_application_repo: https://github.com/btison/globex-sentiment-analysis-helm.git
+globex_application_repo_tag: main
+globex_application_repo_path: globex-sentiment-analysis/globex
+
+kafka_broker_name: kafka
+kafka_security_protocol: SASL_PLAINTEXT
+kafka_sasl_mechanism: SCRAM-SHA-512
+kafka_client_id: globex
+kafka_client_secret: globex
+
+globex_user_password: openshift

@@ -11,3 +11,6 @@
 
 - name: Install SSO
   ansible.builtin.include_tasks: rhsso.yml
+
+- name: Install Globex
+  ansible.builtin.include_tasks: globex.yml
