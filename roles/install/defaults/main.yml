@@ -1,0 +1,19 @@
+become_override: false
+silent: false
+
+# ------------------------------------------------
+# AMQ Streams Operator
+# ------------------------------------------------
+
+amq_streams_operator_channel: ""
+amq_streams_operator_automatic_install_plan_approval: true
+amq_streams_operator_starting_csv: ""
+amq_streams_operator_name: amq-streams
+amq_streams_operator_namespace: openshift-operators
+amq_streams_operator_catalog: redhat-operators
+amq_streams_operator_csv_prefix: amqstreams
+amq_streams_operator_wait_for_deploy: true
+amq_streams_operator_use_catalog_snapshot: false
+amq_streams_operator_catalogsource_name: ""
+amq_streams_operator_catalog_snapshot_image: ""
+amq_streams_operator_catalog_snapshot_image_tag: ""
