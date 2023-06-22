@@ -36,7 +36,7 @@ rhsso_operator_catalog_snapshot_image_tag: ""
 # OpenShift Gitops
 # ------------------------------------------------
 
-openshift_gitops_channel: stable
+openshift_gitops_channel: latest
 openshift_gitops_automatic_install_plan_approval: true
 openshift_gitops_starting_csv: ""
 openshift_gitops_pipelines_csv_prefix: openshift-pipelines-operator-rh
