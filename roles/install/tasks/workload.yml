@@ -17,3 +17,6 @@
 
 - name: Install Globex
   ansible.builtin.include_tasks: globex.yml
+
+- name: Install Sentiment Analysis
+  ansible.builtin.include_tasks: sentiment_analysis.yml
