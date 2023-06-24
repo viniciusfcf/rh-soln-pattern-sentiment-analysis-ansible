@@ -59,7 +59,7 @@ spec:
 
           broker: globex-broker
 
-        products-review:
+        product-reviews:
           kafkaSink:
             reviews: http://kafka-sink-ingress.{{ serverless_eventing_namespace }}.svc.cluster.local/{{ globex_sentiment_analysis_namespace }}/reviews-sink
 
