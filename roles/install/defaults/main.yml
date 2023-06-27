@@ -163,7 +163,7 @@ serverless_eventing_wait_for_deploy: true
 rhsso_application_namespace: openshift-gitops
 rhsso_application_name: rhsso
 rhsso_namespace: "{{ rhsso_operator_namespace }}"
-rhsso_gitops_repo: https://github.com/btison/globex-sentiment-analysis-helm.git
+rhsso_gitops_repo: https://github.com/rh-soln-pattern-sentiment-analysis/helm.git
 rhsso_gitops_repo_tag: main
 rhsso_gitops_repo_path: globex-sentiment-analysis/globex-rhsso
 
@@ -184,7 +184,7 @@ globex_mw_namespace: globex-mw
 globex_application_name: globex
 globex_application_namespace: openshift-gitops
 
-globex_application_repo: https://github.com/btison/globex-sentiment-analysis-helm.git
+globex_application_repo: https://github.com/rh-soln-pattern-sentiment-analysis/helm.git
 globex_application_repo_tag: main
 globex_application_repo_path: globex-sentiment-analysis/globex
 
@@ -205,6 +205,6 @@ globex_sentiment_analysis_namespace: sentiment-analysis
 globex_sentiment_analysis_application_name: sentiment-analysis
 globex_sentiment_analysis_application_namespace: openshift-gitops
 
-globex_sentiment_analysis_application_repo: https://github.com/btison/globex-sentiment-analysis-helm.git
+globex_sentiment_analysis_application_repo: https://github.com/rh-soln-pattern-sentiment-analysis/helm.git
 globex_sentiment_analysis_application_repo_tag: main
 globex_sentiment_analysis_application_repo_path: globex-sentiment-analysis/sentiment-analysis
