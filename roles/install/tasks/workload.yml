@@ -24,9 +24,9 @@
 - name: Install Grafana Influx
   ansible.builtin.include_tasks: grafana-influx.yml
 
-    - name: 60 second pause for influxdb start
-      pause:
-        seconds: 60
+- name: 60 second pause for influxdb start
+  pause:
+    seconds: 60
 
 - name: Setup InfluxDB
   ansible.builtin.shell:
