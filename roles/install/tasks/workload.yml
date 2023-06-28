@@ -1,25 +1,4 @@
 ---
 
-- name: Install AMQ Streams operator
-  ansible.builtin.include_tasks: amq_streams_operator.yml
-
-- name: Install Red Hat SSO Operator
-  ansible.builtin.include_tasks: rhsso_operator.yml
-
-- name: Install OpenShift Gitops
-  ansible.builtin.include_tasks: openshift_gitops.yml
-
-- name: Install OpenShift Serverless
-  ansible.builtin.include_tasks: serverless.yml
-
-- name: Install SSO
-  ansible.builtin.include_tasks: rhsso.yml
-
-- name: Install Globex
-  ansible.builtin.include_tasks: globex.yml
-
-- name: Install Sentiment Analysis
-  ansible.builtin.include_tasks: sentiment_analysis.yml
-
 - name: Install Grafana Influx
   ansible.builtin.include_tasks: grafana-influx.yml
