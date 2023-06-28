@@ -20,3 +20,6 @@
 
 - name: Install Sentiment Analysis
   ansible.builtin.include_tasks: sentiment_analysis.yml
+
+- name: Install Grafana Influx
+  ansible.builtin.include_tasks: grafana-influx.yml
