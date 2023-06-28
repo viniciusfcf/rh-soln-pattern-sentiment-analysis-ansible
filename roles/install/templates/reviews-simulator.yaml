@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/globex-sentiment-analysis/reviews-simulator:26a97ba
+        - image: quay.io/globex-sentiment-analysis/reviews-simulator:latest
           env:
             - name: PRODUCT_REVIEWS_SERVICE_URL
               value: http://product-reviews:8080
